@@ -1,0 +1,212 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.first{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    border-bottom: 2px solid white;
+    
+}
+.login{
+    display: flex;
+gap: 20px;
+    align-items: center;
+}
+.second a{
+    color: white;
+    text-decoration:none;
+}
+.first a{
+    color: white;
+    text-decoration:none;
+    
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    flex-wrap: wrap;
+    position:sticky;
+    top: 0;
+    z-index: 99;
+}
+.word2{
+    display: flex;
+    
+    align-items: center;
+    gap: 20px;
+}
+.word2 p:hover{
+    /* background-color: grey; */
+    /* border-radius: 5px; */
+    
+    background-image: radial-gradient(to right, wheat);
+    border-bottom: 1px solid wheat;
+    transition: 2s;
+    
+}
+.header2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+.header2 input{
+    padding: 6px;
+    padding-right:30px;
+    width: 130px;
+    border:none;
+    border-bottom:1px solid gray;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    
+    
+    
+}
+.header2 span{
+    /* background-color: brown; */
+    position: absolute;
+    right: 32%;
+}
+video{
+    width: 100%;
+filter: brightness(80%);
+}
+
+
+.card img{
+padding-top: 20px;
+    width: 200px;
+    height: 200px;
+    
+    
+}
+.fourth{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.card{
+    width: 250px;
+    height: 340px;
+    box-shadow: 0px 0px 4px rgb(68, 67, 67);
+    padding: 10px;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card p{
+    text-align: center;
+}
+.card .cardend{
+    justify-content: space-between;
+}
+@media screen and (min-width:320px) and (max-width:500px) {
+    .fourth{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    .five{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
+    .fourth{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    .five{
+        flex-wrap: wrap;  
+    }
+
+    
+}
+
+    @media screen and (min-width:800px) and (max-width:1000px) {
+        .fourth{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px;
+        }
+        
+    }
+    .five{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+.five img{
+    width: 300px;
+}
+.model h1{
+    text-align: center;
+}
+.model .mod{
+display: flex;
+gap: 70px;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+.model img{
+    width: 200px;
+    height: 200px;
+/* object-fit: cover; */
+box-shadow: 0px 0px 1px gray;
+}
+.btn1{
+    text-align: center;
+}
+.btn1 button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+.end{
+    background-color: gray;
+    padding: 20px;
+}
+.col1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    
+}
+
+.pay h4,i{
+    padding:5px 0px;
+}
+.customer h3,p{
+    padding-bottom: 5px;
+}
+.about h3,p{
+    padding-bottom: 5px;
+}
